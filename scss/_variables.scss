@@ -1,0 +1,55 @@
+
+
+
+// Colors
+
+$btnBckg: hsl(322, 100%, 66%);   // #FF52C1
+$btnHvr:  hsl(321, 100%, 78%);    // #FF8ED7
+$parag:  hsl(192, 100%, 9%);    // #00252E 
+$linkHvr:	hsl(192, 100%, 49%);   // #00c7fa
+$subscrb:  	hsl(0, 100%, 63%);    // #FF4343
+$ftrPar:  	#FFF;     // #FF4343
+$ftrBckg:  hsl(192, 100%, 9%);    // #00252E
+
+
+
+// Fonts
+
+$font-body: 'Open Sans', sans-serif;
+$font-headings: 'Popins', sans-serif;
+
+
+
+// Font Sizes
+
+$font-h-sm: 1.5rem;
+$font-h-lg: 3rem;
+$font-p-sm: 0.857rem;
+$font-p-lg: 1.25rem;
+
+
+
+// Media Queries
+
+$breakpoints: (
+    small: 699px,
+    medium: 700px,
+    large: 1000px,
+    xlarge: 1300px
+);
+
+@mixin breakpoint($size){
+    $breakpoint-value: map-get($breakpoints, $size);
+
+    @media screen and (min-width: $breakpoint-value){
+        @content;
+    }
+}
+
+@mixin breakpoint-less($size){
+    $breakpoint-value: map-get($breakpoints, $size);
+
+    @media screen and (max-width: $breakpoint-value){
+        @content;
+    }
+}
