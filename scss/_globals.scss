@@ -10,12 +10,48 @@ html {
 }
 
 body {
+   
     color: $parHed;
     font-weight: 400;
-    overflow-x: hidden;
-
 }
 
-button {
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-headings;
+}
+
+p {
+    font-family: $font-body;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+// Buttons
+
+[class^="btn"] {
+    border: none;
+    outline: none;
+    background-color:$btnBckg;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 30px;
     
+//Hero buton
+    @include breakpoint(xlarge) {
+        &[class="--primary"] {
+            padding: 25px 99px 25px 100px;
+            border-radius: 40px;
+        }
+    }
+    //Footer button
+    @include breakpoint(xlarge) {
+        &[class="--secondary"] {
+            padding: 12px 42px 12px 41px;
+            border-radius: 4px;
+        }
+    }
+
 }
+
+
