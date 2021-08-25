@@ -1,2 +1,44 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
 body {
-  background: #246b2a; }
+  color: #00252e;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Popins", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+.hero_btn, .ftr_btn {
+  border: none;
+  outline: none;
+  background-color: #ff52bf;
+  color: #FFF;
+  font-weight: bold; }
+
+.hero_btn {
+  padding: 25px 99px 25px 100px;
+  border-radius: 40px;
+  line-height: 30px; }
+
+.ftr_btn {
+  padding: 12px 41px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 160px;
+  line-height: 24px; }
