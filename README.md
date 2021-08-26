@@ -12,3 +12,11 @@ This is my third Frontend Metnor challege [Huddle Landing Page challenge on Fron
 * CSS Flexbox :ballot_box_with_check:
 * CSS Grid :ballot_box_with_check:
 * Pixel perfect :ballot_box_with_check:
+
+## Features
+
+In order to reduce the use of media I used fluid design. For paragraphs and headings I used: 
+
+font-size: calc( 24px + (48 - 24) * (100vw - 320px) / (1440 - 320) ); 
+
+24px is minimal size and 48 is maximum
