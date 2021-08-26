@@ -1,2 +1,29 @@
 
 
+.header_nav {
+    max-width: 1297px;
+    padding: 24px 24px 112px 24px;
+    //     display: grid;
+    //     grid-template-columns: minmax(96px, 1fr) repeat(1, auto);
+    // gap: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 151px;
+    @include breakpoint(large) {
+        padding: 78px 63px 225px 80px;
+    }
+  
+
+
+ .hdr_logo {
+     width: 29.6%;
+     height: auto;
+     max-width:240px;
+ }
+
+
+     
+}
+
+

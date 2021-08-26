@@ -1,5 +1,6 @@
 html {
     font-size: 100%;
+    // font-size: calc( 9.41px + (16 - 9.41) * (100vw - 320px) / (1440 - 320) ); 
     box-sizing: border-box;
 }
 
@@ -14,22 +15,25 @@ body {
     font-weight: 400;
 }
    
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: $font-headings;
+    font-size: calc( 24px + (48 - 24) * (100vw - 320px) / (1440 - 320) ); 
 }
 
 p {
     font-family: $font-body;
+    font-size: calc( 13.8px + (16 - 13.8) * (100vw - 320px) / (1440 - 320) ); 
 }
 
 a, a:hover {
     text-decoration: none;
+    font-size: calc( 9.1px + (16 - 9.1) * (100vw - 320px) / (1440 - 320) ); 
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1440px;
 }
+ 
 
 // Buttons
 
@@ -59,7 +63,23 @@ a, a:hover {
     line-height: 24px;
 }
   
+.btn_link {
+    // display: inline-block;
+    color:$btnBckg;
+    border: 1px solid;
+    border-radius: 40px;
+    background: #FFF;
+    border-color: $btnBckg;
+    padding: 5.29px 17.76px 5.24px 18.24px;
+   
 
+    @include breakpoint(large) {
+        width: 136px;
+        padding:9px 30px;
+    }
+
+    
+}
         
 
      
