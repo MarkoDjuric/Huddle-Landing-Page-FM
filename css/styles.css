@@ -112,3 +112,10 @@ a {
     width: clamp(296px, 75vw, 1016px);
     padding-left: 40px;
     padding-right: 40px; }
+
+.diagram {
+  max-width: 880px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 107px;
+  border: 1px solid red; }
