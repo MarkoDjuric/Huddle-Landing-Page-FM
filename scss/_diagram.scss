@@ -5,8 +5,80 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: centeradd;
-    padding:0px 107px;
+    text-align: center;
+    padding: 0px 108px;
     border: 1px solid red;
 
-}
+   .dig {
+
+        img {
+            display: flex;
+            align-self: left;
+            width: clamp(35px, 9vw, 56px);
+        
+        }
+        h1 {
+            width: clamp(160px, 287px);
+            font-size: calc( 59.95px + (96 - 59.95) * (100vw - 320px) / (1440 - 320) );
+            line-height:  calc( 90px + (144 - 90) * (100vw - 320px) / (1440 - 320) );
+        }
+        p {
+            // font-size: 0.836rem;
+            font-size: calc( 0.95rem + (9.7 - 0.96) * (100vw - 320px) / (1440 - 320) );
+            text-align: center;
+         
+            line-height:  calc( 22px + (36 - 22) * (100vw - 320px) / (1440 - 320) );
+        }
+
+   } 
+
+        @include breakpoint(large) {
+            flex-direction: row;
+            align-items: center;
+            padding-left: 0;
+            padding-right: 0;
+            gap: 340px;
+            
+            .dig {
+                flex: 1;
+                justify-content: space-between;
+                margin-bottom: 0;
+            }
+           
+            img {
+                display: flex;
+                align-self: left;
+              
+                // width: 56px;
+
+               
+            }
+          
+         
+        }
+
+    &__left {
+        margin-bottom:5.552rem; 
+  
+
+    //  img {
+     
+    //         // width: 35.56px;
+    //     }
+    // }
+
+//     &__right {
+    
+//         img {
+//         // width: 27.32px;
+//     }
+// } 
+ 
+
+
+
+
+    }
+
+}   
+
