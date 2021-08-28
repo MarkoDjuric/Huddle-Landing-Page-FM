@@ -22,13 +22,16 @@ h1 {
 
 p {
     font-family: $font-body;
+    line-height: 21px;
     font-size: calc( 13.8px + (16 - 13.8) * (100vw - 320px) / (1440 - 320) ); 
 }
 
-a, a:hover {
+a {
     text-decoration: none;
     font-size: calc( 9.1px + (16 - 9.1) * (100vw - 320px) / (1440 - 320) ); 
 }
+
+
 
 .container {
     margin: 0 auto;
@@ -48,13 +51,30 @@ a, a:hover {
 // Hero button
 .hero_btn {
     @extend %btn;
-    padding: 25px 99px 25px 100px;
-    border-radius: 40px;
-    line-height: 30px;
+    padding: 0.688rem 2.438rem 0.688rem 2.438rem;
+    border-radius: 2.5rem;
+    line-height:1.125rem ;
+    font-size: 0.75rem;
+    // width: 200px;
+    // height: 40px;
+    font-weight: bold;
+    margin-bottom: 6.5rem;
+   
+    
+    @include breakpoint(large) {
+        // max-width: 400px;
+        // height: 80px;
+        padding: 1.563rem 6.25rem;
+        text-align: center;
+        font-size: 1.25rem;
+        line-height: 30px;
+        margin-bottom: 7.5rem;
+    }
+
 }
 
 // Footer button   
-.ftr_btn{
+.ftr_btn {
     @extend %btn;
     padding: 12px 41px;
     border-radius: 4px;
@@ -64,7 +84,7 @@ a, a:hover {
 }
   
 .btn_link {
-    // display: inline-block;
+
     color:$btnBckg;
     border: 1px solid;
     border-radius: 40px;
@@ -75,7 +95,9 @@ a, a:hover {
 
     @include breakpoint(large) {
         width: 136px;
-        padding:9px 30px;
+        padding: 9px 30px;
+        text-align: center;
+        font-size: 16px;
     }
 
     

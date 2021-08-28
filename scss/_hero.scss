@@ -4,7 +4,65 @@
     max-width: 1017px;
     display: flex;
     flex-direction: column;
-    padding: 0px 40px 120px 4px;
+    padding: 0px 40px 120px 40px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: clamp(375px, 75vw, 1017px);
+
+    h1 {
+        padding-bottom: 24px;
+    }
+
+    p {
+        font-size: calc( 13.8px + (20 - 13.8) * (100vw - 320px) / (1440 - 320) );
+        text-align: center;
+        padding-bottom: 48px;
+    }
+
+    @include breakpoint(large) {
+
+    h1 {
+        line-height: 72px;
+        width: 1014px;
+        padding-bottom: 26px;
+    }
+    p {
+        width: 600px;
+        padding-bottom: 49px;
+        line-height: 30px;
+    }
+    //     padding: 0px 211px 225px 212px;  
+
+    }
+
+    img {
+    
+        width: clamp(296px, 75vw, 1016px);
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    
+    // @include breakpoint(large) {
+         
+    // img {
+        
+    //     // max-width: 1016px;
+    //     padding-left: 212px;
+    //     padding-right: 212px;
+    // }
+
+    // }
 
 }
+
+
+    
+    
+    
+    
+    
+    
+    
+

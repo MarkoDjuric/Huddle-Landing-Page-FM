@@ -17,9 +17,10 @@ h1 {
 
 p {
   font-family: "Open Sans", sans-serif;
+  line-height: 21px;
   font-size: calc( 13.8px + (16 - 13.8) * (100vw - 320px) / (1440 - 320)); }
 
-a, a:hover {
+a {
   text-decoration: none;
   font-size: calc( 9.1px + (16 - 9.1) * (100vw - 320px) / (1440 - 320)); }
 
@@ -34,9 +35,19 @@ a, a:hover {
   font-weight: bold; }
 
 .hero_btn {
-  padding: 25px 99px 25px 100px;
-  border-radius: 40px;
-  line-height: 30px; }
+  padding: 0.688rem 2.438rem 0.688rem 2.438rem;
+  border-radius: 2.5rem;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 6.5rem; }
+  @media screen and (min-width: 1000px) {
+    .hero_btn {
+      padding: 1.563rem 6.25rem;
+      text-align: center;
+      font-size: 1.25rem;
+      line-height: 30px;
+      margin-bottom: 7.5rem; } }
 
 .ftr_btn {
   padding: 12px 41px;
@@ -55,7 +66,9 @@ a, a:hover {
   @media screen and (min-width: 1000px) {
     .btn_link {
       width: 136px;
-      padding: 9px 30px; } }
+      padding: 9px 30px;
+      text-align: center;
+      font-size: 16px; } }
 
 .header_nav {
   max-width: 1297px;
@@ -75,5 +88,27 @@ a, a:hover {
   max-width: 1017px;
   display: flex;
   flex-direction: column;
-  padding: 0px 40px 120px 4px;
-  text-align: center; }
+  padding: 0px 40px 120px 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: clamp(375px, 75vw, 1017px); }
+  .hero h1 {
+    padding-bottom: 24px; }
+  .hero p {
+    font-size: calc( 13.8px + (20 - 13.8) * (100vw - 320px) / (1440 - 320));
+    text-align: center;
+    padding-bottom: 48px; }
+  @media screen and (min-width: 1000px) {
+    .hero h1 {
+      line-height: 72px;
+      width: 1014px;
+      padding-bottom: 26px; }
+    .hero p {
+      width: 600px;
+      padding-bottom: 49px;
+      line-height: 30px; } }
+  .hero img {
+    width: clamp(296px, 75vw, 1016px);
+    padding-left: 40px;
+    padding-right: 40px; }
