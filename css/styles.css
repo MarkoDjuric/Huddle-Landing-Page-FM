@@ -127,11 +127,11 @@ a {
     align-self: left;
     width: clamp(35px, 9vw, 56px); }
   .diagram .dig h1 {
-    width: clamp(160px, 287px);
+    width: clamp(160px, 252px);
     font-size: calc( 59.95px + (96 - 59.95) * (100vw - 320px) / (1440 - 320));
     line-height: calc( 90px + (144 - 90) * (100vw - 320px) / (1440 - 320)); }
   .diagram .dig p {
-    font-size: calc( 0.95rem + (9.7 - 0.96) * (100vw - 320px) / (1440 - 320));
+    font-size: calc( 0.95rem + (9.8 - 0.95) * (100vw - 320px) / (1440 - 320));
     text-align: center;
     line-height: calc( 22px + (36 - 22) * (100vw - 320px) / (1440 - 320)); }
   @media screen and (min-width: 1000px) {
@@ -140,9 +140,8 @@ a {
       align-items: center;
       padding-left: 0;
       padding-right: 0;
-      gap: 340px; }
+      gap: 350px; }
       .diagram .dig {
-        flex: 1;
         justify-content: space-between;
         margin-bottom: 0; }
       .diagram img {

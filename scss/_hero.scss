@@ -15,7 +15,10 @@
     }
 
     p {
-        font-size: calc( 13.8px + (20 - 13.8) * (100vw - 320px) / (1440 - 320) );
+        //  
+      
+        font-size: calc( 13.8px + (20 - 13.8) * (100vw - 320px) / (1440 - 320) )  ;
+        // @include 
         text-align: center;
         padding-bottom: 48px;
     }
