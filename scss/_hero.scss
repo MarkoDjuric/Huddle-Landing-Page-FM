@@ -8,7 +8,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: clamp(375px, 75vw, 1017px);
+    width: clamp(320px, 85vw, 1017px);
 
     h1 {
         padding-bottom: 24px;
@@ -31,7 +31,7 @@
         padding-bottom: 26px;
     }
     p {
-        width: 600px;
+        max-width: 600px;
         padding-bottom: 49px;
         line-height: 30px;
     }
