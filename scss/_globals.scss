@@ -13,6 +13,7 @@ html {
 body {
     color: $parHed;
     font-weight: 400;
+    scroll-behavior: smooth;
 }
    
 h1 {
@@ -20,7 +21,10 @@ h1 {
     font-size: calc( 24px + (48 - 24) * (100vw - 320px) / (1440 - 320) ); 
 }
 
-
+h2 {
+    font-family: $font-headings;
+}
+    
 
 p {
     font-family: $font-body;

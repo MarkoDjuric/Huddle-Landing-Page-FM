@@ -9,11 +9,15 @@ html {
 
 body {
   color: #00252e;
-  font-weight: 400; }
+  font-weight: 400;
+  scroll-behavior: smooth; }
 
 h1 {
   font-family: "Popins", sans-serif;
   font-size: calc( 24px + (48 - 24) * (100vw - 320px) / (1440 - 320)); }
+
+h2 {
+  font-family: "Popins", sans-serif; }
 
 p {
   font-family: "Open Sans", sans-serif;
