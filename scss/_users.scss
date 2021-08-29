@@ -11,30 +11,29 @@
         padding-top: 180px; 
         padding-bottom: 200px; 
         border: 1px solid red;
+
     h2 {
         padding-bottom: 1rem;
         font-size: calc( 20px + (40 - 20) * (100vw - 320px) / (1180 - 320) );
     }
+
     p {
         font-size: calc( 14px + (15.6 - 14) * (100vw - 320px) / (1180 - 320) );
     }
+
         .growtg_right {
          width:clamp(320px,65%,560px);
              
             img {
                 width:88.3%;
                 padding-bottom: 40px;
-               
             }
-     
-           
         }
-  .growtg_left {
-    width:clamp(320px,50%,560px);
-  }
 
-
-    
+        .growtg_left {
+            width:clamp(320px,50%,560px);
+        }
+                   
         @include breakpoint(large) {
             flex-direction: row;
             text-align: left;
@@ -43,20 +42,22 @@
           
              .growtg_left {
                  flex-basis: 50%;
+
                  h2 {
                     font-size: 40px;
                     line-height: 60px;
                     padding-bottom: 24px;
                  }
+                 
                  p {
                      max-width: 520px;
                  }
              }
+             
              .growtg_right {
                 flex-basis: 50%;
                 text-align: right;
                
-                   
                 img {
                     width: 100%;
                     max-width: 517px;
@@ -67,6 +68,7 @@
         }   
     
     }
+                   
     
     
     
