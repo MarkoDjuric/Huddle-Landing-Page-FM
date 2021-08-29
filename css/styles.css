@@ -150,6 +150,9 @@ a {
   .diagram__left {
     margin-bottom: 5.552rem; }
 
+.features .frtschld {
+  padding-top: 180px; }
+
 .features__growtg {
   max-width: 1180px;
   display: flex;
@@ -157,8 +160,7 @@ a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 180px;
-  border: 1px solid red; }
+  padding-top: 200px; }
   .features__growtg h2 {
     padding-bottom: 1rem;
     font-size: calc( 20px + (40 - 20) * (100vw - 320px) / (1180 - 320)); }

@@ -1,6 +1,10 @@
 // clamp(320px,100vw, 144px);
 .features {
 
+    .frtschld{
+        padding-top: 180px;
+    }
+       
     &__growtg {
         max-width:1180px;
         display: flex;
@@ -8,9 +12,10 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        padding-top: 180px; 
+  
+        padding-top: 200px; 
        
-        border: 1px solid red;
+        // border: 1px solid red;
 
     h2 {
         padding-bottom: 1rem;
