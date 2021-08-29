@@ -162,15 +162,22 @@ a {
   border: 1px solid red; }
   .features__growtg h2 {
     padding-bottom: 16px; }
-  .features__growtg .growtg_right img {
-    width: 88.3%;
-    padding-bottom: 40px; }
+  .features__growtg .growtg_right {
+    width: clamp(320px, 50%, 560px); }
+    .features__growtg .growtg_right img {
+      width: 88.3%;
+      padding-bottom: 40px; }
+  .features__growtg .growtg_left {
+    width: clamp(320px, 50%, 560px); }
   @media screen and (min-width: 1000px) {
     .features__growtg {
       flex-direction: row;
       text-align: left; }
       .features__growtg .growtg_left {
         flex-basis: 50%; }
+        .features__growtg .growtg_left h2 {
+          font-size: 40px;
+          line-height: 60px; }
         .features__growtg .growtg_left p {
           max-width: 520px; }
       .features__growtg .growtg_right {
