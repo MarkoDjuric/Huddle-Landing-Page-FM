@@ -161,9 +161,12 @@ a {
   padding-bottom: 200px;
   border: 1px solid red; }
   .features__growtg h2 {
-    padding-bottom: 16px; }
+    padding-bottom: 1rem;
+    font-size: calc( 20px + (40 - 20) * (100vw - 320px) / (1180 - 320)); }
+  .features__growtg p {
+    font-size: calc( 14px + (15.6 - 14) * (100vw - 320px) / (1180 - 320)); }
   .features__growtg .growtg_right {
-    width: clamp(320px, 50%, 560px); }
+    width: clamp(320px, 65%, 560px); }
     .features__growtg .growtg_right img {
       width: 88.3%;
       padding-bottom: 40px; }
@@ -172,12 +175,15 @@ a {
   @media screen and (min-width: 1000px) {
     .features__growtg {
       flex-direction: row;
-      text-align: left; }
+      text-align: left;
+      margin-left: 120px;
+      margin-right: 120px; }
       .features__growtg .growtg_left {
         flex-basis: 50%; }
         .features__growtg .growtg_left h2 {
           font-size: 40px;
-          line-height: 60px; }
+          line-height: 60px;
+          padding-bottom: 24px; }
         .features__growtg .growtg_left p {
           max-width: 520px; }
       .features__growtg .growtg_right {
