@@ -1,1 +1,55 @@
+// clamp(320px,100vw, 144px);
+.features {
 
+    &__growtg {
+        max-width:1180px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px; 
+    padding-bottom: 200px; 
+    border: 1px solid red;
+    h2 {
+        padding-bottom: 16px;
+    }
+        .growtg_right {
+         
+             
+            img {
+                width:88.3%;
+                padding-bottom: 40px;
+               
+            }
+     
+           
+        }
+  
+
+    
+        @include breakpoint(large) {
+            flex-direction: row;
+            text-align: left;
+             .growtg_left {
+                 flex-basis: 50%;
+             }
+             .growtg_right {
+                flex-basis: 50%;
+                img {
+                    width: 100%;
+                }
+            }
+           
+        }   
+    
+    }
+    
+    
+    
+    
+   
+       
+
+  
+}

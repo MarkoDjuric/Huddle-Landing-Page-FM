@@ -149,3 +149,29 @@ a {
         align-self: left; } }
   .diagram__left {
     margin-bottom: 5.552rem; }
+
+.features__growtg {
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+  padding-bottom: 200px;
+  border: 1px solid red; }
+  .features__growtg h2 {
+    padding-bottom: 16px; }
+  .features__growtg .growtg_right img {
+    width: 88.3%;
+    padding-bottom: 40px; }
+  @media screen and (min-width: 1000px) {
+    .features__growtg {
+      flex-direction: row;
+      text-align: left; }
+      .features__growtg .growtg_left {
+        flex-basis: 50%; }
+      .features__growtg .growtg_right {
+        flex-basis: 50%; }
+        .features__growtg .growtg_right img {
+          width: 100%; } }
