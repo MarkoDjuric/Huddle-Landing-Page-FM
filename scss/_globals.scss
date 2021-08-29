@@ -20,6 +20,8 @@ h1 {
     font-size: calc( 24px + (48 - 24) * (100vw - 320px) / (1440 - 320) ); 
 }
 
+
+
 p {
     font-family: $font-body;
     line-height: 21px;
@@ -46,6 +48,7 @@ a {
     background-color:$btnBckg;
     color: #FFF;
     font-weight: bold;
+    cursor: pointer;
    
 }
 // Hero button
