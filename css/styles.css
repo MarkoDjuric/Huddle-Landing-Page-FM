@@ -71,7 +71,7 @@ a {
       font-size: 16px; } }
 
 .header_nav {
-  max-width: 1297px;
+  max-width: 1440px;
   padding: 24px 24px 112px 24px;
   display: flex;
   justify-content: space-between;
@@ -171,7 +171,12 @@ a {
       text-align: left; }
       .features__growtg .growtg_left {
         flex-basis: 50%; }
+        .features__growtg .growtg_left p {
+          max-width: 520px; }
       .features__growtg .growtg_right {
-        flex-basis: 50%; }
+        flex-basis: 50%;
+        text-align: right; }
         .features__growtg .growtg_right img {
-          width: 100%; } }
+          width: 100%;
+          max-width: 517px;
+          text-align: right; } }
