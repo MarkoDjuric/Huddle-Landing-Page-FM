@@ -32,6 +32,8 @@
             img {
                 width:88.3%;
                 padding-bottom: 40px;
+                filter: blur(0);
+                transition: .5s;
             }
         }
 
