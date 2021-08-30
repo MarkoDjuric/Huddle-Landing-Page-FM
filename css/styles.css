@@ -182,13 +182,13 @@ a {
     .features__growtg {
       flex-direction: row;
       text-align: left;
-      margin-left: 120px;
-      margin-right: 120px;
+      padding-left: 120px;
+      padding-right: 120px;
       padding-bottom: 194px;
       padding-top: 0; }
       .features__growtg .leftimg {
         order: 1;
-        padding-left: 6%; }
+        padding-left: 3%; }
       .features__growtg .growtg_left {
         flex-basis: 50%; }
         .features__growtg .growtg_left h2 {
@@ -207,3 +207,6 @@ a {
           text-align: right; } }
   .features__growtg .rightrevimg {
     text-align: left; }
+
+.cta {
+  max-width: 680px; }

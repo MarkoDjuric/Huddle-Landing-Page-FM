@@ -42,14 +42,14 @@
         @include breakpoint(large) {
             flex-direction: row;
             text-align: left;
-            margin-left: 120px;
-            margin-right: 120px;
+            padding-left: 120px;
+            padding-right: 120px;
             padding-bottom: 194px; 
             padding-top: 0;
 
             .leftimg {
                 order: 1;
-                padding-left: 6%;
+                padding-left: 3%;
                 }
      
                  
