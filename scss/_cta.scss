@@ -1,7 +1,26 @@
 
 .cta {
-   max-width: 680px;
-   
+//    max-width: 42.5rem;
+   display: flex;
+   width: clamp(375px, 59vw,740px);
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: calc( 280px + (296 - 280 ) * (100vw - 320px) / (1440 - 320) );
+   padding-left: 14px;
+   padding-right: 14px;
+  
+
+
+   h2 {
+       width: 100%;
+  
+       max-width: 680px;
+       margin-bottom: 1.078em;
+       font-size: calc( 24px + (42 - 24) * (100vw - 320px) / (1440 - 320) ); 
+   }
+
 
 
 
