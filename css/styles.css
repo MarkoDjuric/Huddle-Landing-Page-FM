@@ -227,3 +227,6 @@ a {
     margin-bottom: 1.078em;
     line-height: calc( 36px + (60 - 36) * (100vw - 320px) / (1430 - 320));
     font-size: calc( 23px + (40.2 - 23) * (100vw - 370px) / (1430 - 370)); }
+
+.footer {
+  background-color: #00252e; }
