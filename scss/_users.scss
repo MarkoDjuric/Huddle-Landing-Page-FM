@@ -6,7 +6,7 @@
     }
 
     &__growtg {
-        max-width:1180px;
+        max-width:1400px;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
@@ -28,6 +28,7 @@
 
         .growtg_right {
          width: clamp(320px,65%,560px);
+        //  max-width: 560px;
              
             img {
                 width:88.3%;
