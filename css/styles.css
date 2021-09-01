@@ -83,7 +83,9 @@ input[type="email"] {
   text-align: left;
   padding: 12px 205px 12px 16px;
   cursor: pointer;
-  outline: none; }
+  outline: none;
+  color: #00252e;
+  border-radius: 5px; }
 
 .header_nav {
   max-width: 1440px;
@@ -243,8 +245,20 @@ input[type="email"] {
   color: #FFF; }
   .footer__wrapper {
     max-width: 1214px;
-    padding: 109px 28px 48px 28px;
-    display: grid; }
+    padding: 54px 28px 48px 28px;
+    display: grid;
+    justify-content: center;
+    align-content: center; }
+    .footer__wrapper h3 {
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-size: 20px;
+      line-height: 30px; }
+    .footer__wrapper p {
+      line-height: 24px;
+      text-align: left;
+      padding-bottom: 32px;
+      padding-top: 16px; }
   .footer__bg {
     width: 100%;
     background-color: white; }
