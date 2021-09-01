@@ -252,13 +252,18 @@ footer a {
   background-color: #00252e;
   color: #FFF; }
   .footer__wrapper {
-    max-width: 1214px;
+    max-width: 1200px;
     padding: 54px 28px 48px 28px;
     display: grid;
     grid-template-columns: 1fr; }
     @media screen and (min-width: 700px) {
       .footer__wrapper {
-        grid-template-columns: 1fr 1fr 1fr 1fr; } }
+        grid-template-columns: 120px 1fr 1fr 1fr 120px; }
+        .footer__wrapper .footer__newsub {
+          grid-column: 4 / span 1; }
+        .footer__wrapper .footer_links {
+          grid-column: 2 / 1;
+          grid-row: 1 / 1; } }
     .footer__wrapper h3 {
       text-transform: uppercase;
       font-family: sans-serif;
