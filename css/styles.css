@@ -75,6 +75,15 @@ a {
       text-align: center;
       font-size: 16px; } }
 
+input[type="email"] {
+  width: 320px;
+  height: 48px;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: left;
+  padding: 12px, 205px, 12px, 16px;
+  cursor: pointer; }
+
 .header_nav {
   max-width: 1440px;
   padding: 24px 24px 112px 24px;
@@ -232,9 +241,7 @@ a {
   background-color: #00252e;
   color: #FFF; }
   .footer__wrapper {
-    max-width: 1372px;
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
+    max-width: 1214px; }
   .footer__bg {
     width: 100%;
     background-color: white; }
