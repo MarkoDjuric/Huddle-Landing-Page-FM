@@ -10,9 +10,12 @@
       justify-content: center;
       align-content: center;
         //    grid-template-columns: 1fr;
+//         @include breakpoint(medium){
+// grid-template-columns: 1fr 1fr;
+//         }
   
-      
-    
+ 
+
       
     //    padding-left:28px ;
      h3 {
@@ -43,4 +46,14 @@
 &__newsub {
     margin-bottom: 104px;
 }
+
+&__social-icons {
+    svg {
+        width: 1.438rem;
+        height: auto;
+        & * {
+            fill: #FFF;
+        }
+    }
+   }  
 }

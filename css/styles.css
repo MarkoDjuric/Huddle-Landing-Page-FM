@@ -272,3 +272,8 @@ footer a {
     background-color: white; }
   .footer__newsub {
     margin-bottom: 104px; }
+  .footer__social-icons svg {
+    width: 1.438rem;
+    height: auto; }
+    .footer__social-icons svg * {
+      fill: #FFF; }
