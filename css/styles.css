@@ -95,6 +95,13 @@ input[type="email"] {
 footer a {
   color: #FFF; }
 
+footer p {
+  line-height: 1.5rem;
+  text-align: left;
+  padding-bottom: 32px;
+  padding-top: 16px;
+  max-width: 340px; }
+
 .header_nav {
   max-width: 1440px;
   padding: 24px 24px 112px 24px;
@@ -251,17 +258,17 @@ footer a {
 .footer {
   background-color: #00252e;
   color: #FFF; }
+  .footer p {
+    line-height: 1.5rem;
+    text-align: left;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    max-width: 340px; }
   .footer__wrapper {
     max-width: 1200px;
     padding: 54px 28px 48px 28px;
     display: grid;
     grid-template-columns: 1fr; }
-    .footer__wrapper p {
-      line-height: 1.5rem;
-      text-align: left;
-      padding-bottom: 32px;
-      padding-top: 16px;
-      max-width: 340px; }
     @media screen and (min-width: 700px) {
       .footer__wrapper {
         grid-template-columns: 1fr 1fr 1fr;
