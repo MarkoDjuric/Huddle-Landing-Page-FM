@@ -88,6 +88,9 @@ input[type="email"] {
   border-radius: 5px;
   padding-bottom: 16px; }
 
+footer a {
+  color: #FFF; }
+
 .header_nav {
   max-width: 1440px;
   padding: 24px 24px 112px 24px;
