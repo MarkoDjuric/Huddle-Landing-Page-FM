@@ -1,18 +1,18 @@
 .footer {
 
     background-color: $ftrBckg;
-   color: #FFF;
+    color: #FFF;
 
    &__wrapper    {
        max-width: 1214px;
        padding: 54px 28px 48px 28px;
       display: grid;
-      justify-content: center;
-      align-content: center;
-        //    grid-template-columns: 1fr;
-//         @include breakpoint(medium){
-// grid-template-columns: 1fr 1fr;
-//         }
+    //   justify-content: center;
+    //   align-content: center;
+           grid-template-columns: 1fr;
+        @include breakpoint(medium){
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
   
  
 
@@ -24,7 +24,7 @@
          font-size: 20px;
          line-height: 30px;
         }
-        p{
+        p {
             line-height: 24px;
             text-align: left;
             padding-bottom: 32px;

@@ -255,8 +255,10 @@ footer a {
     max-width: 1214px;
     padding: 54px 28px 48px 28px;
     display: grid;
-    justify-content: center;
-    align-content: center; }
+    grid-template-columns: 1fr; }
+    @media screen and (min-width: 700px) {
+      .footer__wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr; } }
     .footer__wrapper h3 {
       text-transform: uppercase;
       font-family: sans-serif;
