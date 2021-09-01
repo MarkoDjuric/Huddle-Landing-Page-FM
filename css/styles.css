@@ -85,7 +85,8 @@ input[type="email"] {
   cursor: pointer;
   outline: none;
   color: #00252e;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding-bottom: 16px; }
 
 .header_nav {
   max-width: 1440px;
@@ -262,3 +263,5 @@ input[type="email"] {
   .footer__bg {
     width: 100%;
     background-color: white; }
+  .footer__newsub {
+    margin-bottom: 104px; }

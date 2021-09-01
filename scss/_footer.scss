@@ -2,6 +2,7 @@
 
     background-color: $ftrBckg;
    color: #FFF;
+
    &__wrapper    {
        max-width: 1214px;
        padding: 54px 28px 48px 28px;
@@ -39,5 +40,7 @@
     background-color:white;
 
 }
-
+&__newsub {
+    margin-bottom: 104px;
+}
 }
