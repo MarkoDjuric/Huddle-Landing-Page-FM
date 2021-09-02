@@ -95,16 +95,11 @@ input[type="email"] {
   border-radius: 5px;
   padding-bottom: 16px; }
 
-footer
+footer span {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px; }
 
-
-    span {
-        font-family: "Open Sans", sans-serif;
-        line-height: 24px;
-    }
-
-
-a {
+footer a {
   color: #FFF; }
 
 footer h3 {
@@ -275,10 +270,6 @@ footer p {
     font-size: calc( 23px + (40.2 - 23) * (100vw - 370px) / (1430 - 370)); }
 
 .footer {
-      span {
-        font-family: "Open Sans", sans-serif;
-        line-height: 24px;
-    }
   background-color: #00252e;
   color: #FFF; }
   .footer .footer_links .footer_svg svg {
