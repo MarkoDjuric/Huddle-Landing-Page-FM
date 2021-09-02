@@ -102,6 +102,7 @@ footer h3 {
   line-height: 30px; }
 
 footer p {
+  font-size: 14px;
   line-height: 1.5rem;
   text-align: left;
   padding-bottom: 32px;
@@ -264,12 +265,6 @@ footer p {
 .footer {
   background-color: #00252e;
   color: #FFF; }
-  .footer p {
-    line-height: 1.5rem;
-    text-align: left;
-    padding-bottom: 32px;
-    padding-top: 16px;
-    max-width: 340px; }
   .footer .footer_links .footer_svg svg {
     max-width: 270px; }
   .footer__wrapper {
@@ -299,7 +294,8 @@ footer p {
     padding-top: 2.875rem; }
     .footer__social-icons svg {
       width: 1.438rem;
-      height: auto; }
+      height: auto;
+      margin-right: 1rem; }
       .footer__social-icons svg * {
         fill: #FFF; }
   .footer .form {
