@@ -95,7 +95,16 @@ input[type="email"] {
   border-radius: 5px;
   padding-bottom: 16px; }
 
-footer a {
+footer
+
+
+    span {
+        font-family: "Open Sans", sans-serif;
+        line-height: 24px;
+    }
+
+
+a {
   color: #FFF; }
 
 footer h3 {
