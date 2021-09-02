@@ -295,19 +295,21 @@ footer p {
     background-color: white; }
   .footer__newsub {
     margin-bottom: 104px; }
-  .footer__social-icons svg {
-    width: 1.438rem;
-    height: auto; }
-    .footer__social-icons svg * {
-      fill: #FFF; }
+  .footer__social-icons {
+    padding-top: 2.875rem; }
+    .footer__social-icons svg {
+      width: 1.438rem;
+      height: auto; }
+      .footer__social-icons svg * {
+        fill: #FFF; }
   .footer .form {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
     justify-content: space-between; }
     @media screen and (min-width: 700px) {
       .footer .form {
         gap: 20px; } }
-    .footer .form button {
-      align-self: flex-end; }
-    .footer .form input {
-      align-self: flex-end; }
+  .footer .svg_firstch {
+    padding-bottom: 1rem; }

@@ -15,8 +15,7 @@
             max-width: 270px;
            }
       
-            
-         
+ 
         }
     }
    &__wrapper    {
@@ -71,6 +70,8 @@
     }
 
     &__social-icons {
+   padding-top: 2.875rem;
+
         svg {
             width: 1.438rem;
             height: auto;
@@ -83,6 +84,8 @@
    .form {
        display: flex;
       flex-direction: column;
+      gap:20px;
+      align-items: flex-end;
       @include breakpoint(medium){
           
      gap:20px;
@@ -91,12 +94,16 @@
       }
     
        justify-content: space-between;
-       button {
-           align-self:flex-end;
-       }
-       input {
-           align-self: flex-end;
-       }
+    //    button {
+    //       align-self:auto;
+    //    }
+    //    input {
+         
+    //    }
 
    }
+   .svg_firstch {
+    padding-bottom: 1rem;
+}    
+ 
 }
