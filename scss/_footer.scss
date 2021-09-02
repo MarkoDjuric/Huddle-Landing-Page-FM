@@ -9,14 +9,25 @@
         padding-top: 16px;
         max-width: 340px;
     } 
+    .footer_links {
+        .footer_svg {
+           svg {
+            max-width: 270px;
+           }
+      
+            
+         
+        }
+    }
    &__wrapper    {
        max-width: 1200px;
        padding: 54px 28px 48px 28px;
       display: grid;
-    //   justify-content: center;
-    //   align-content: center;
+      justify-items: center;
+     
            grid-template-columns: 1fr;
 
+           
         @include breakpoint(medium){
            grid-template-columns: 1fr 1fr 1fr;
            grid-template-rows: 1fr 1fr;

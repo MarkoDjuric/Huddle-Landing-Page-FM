@@ -264,10 +264,13 @@ footer p {
     padding-bottom: 32px;
     padding-top: 16px;
     max-width: 340px; }
+  .footer .footer_links .footer_svg svg {
+    max-width: 270px; }
   .footer__wrapper {
     max-width: 1200px;
     padding: 54px 28px 48px 28px;
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr; }
     @media screen and (min-width: 700px) {
       .footer__wrapper {
