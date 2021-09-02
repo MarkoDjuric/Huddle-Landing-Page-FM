@@ -7,22 +7,25 @@
     .footer_links {
         .footer_svg {
            svg {
-            max-width: 270px;
+            // max-width: 270px;
+            width: calc(min(max(20vw, 200px), 240px));
            }
         }
     }
       
  
    &__wrapper    {
-       max-width: 1200px;
+       max-width: 1360px;
        padding: 54px 28px 48px 28px;
        display: grid;
-       justify-items: center;
+       justify-items:start;
        grid-template-columns: 1fr;
            
         @include breakpoint(medium){
+            padding-left: 80px;
+            padding-right: 80px;
            grid-template-columns: 1fr 1fr 1fr;
-           grid-template-rows: 1fr 1fr;
+        //    grid-template-rows: auto auto;
            
            .footer__newsub {
               grid-column:  3 / span 1;
@@ -33,7 +36,7 @@
             }
             .form {
                 grid-column: 4/ span 1;
-                 grid-row: 1 / span 1;
+                 grid-row: 1;
             }
         }
     }
@@ -56,12 +59,21 @@
         padding-top: 2.875rem;
 
         svg {
-            width: 1.438rem;
+            // width: 1.438rem;
             height: auto;
+            width: calc(min(max(20vw, 20px), 35px));
             margin-right: 1rem;
 
             & * {
-                fill: #FFF;
+          
+         fill: #FFF;
+              
+            
+            }
+            &:hover {
+                
+                 background-color:  hsla(322, 100%, 66%, 0.8);
+                border-radius: 20px;
             }
         }
    }  
@@ -95,5 +107,7 @@
    .svg_firstch {
     padding-bottom: 1rem;
 }    
- 
+ span {
+     margin-left: 1rem;
+ }
 }
