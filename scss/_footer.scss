@@ -33,7 +33,7 @@
            
            .footer__newsub {
               grid-column:  3 / span 1;
-              width: 400px;
+            //   width: 400px;
            }
            .footer_links {
               grid-column:  1 / span 1;
@@ -87,11 +87,20 @@
       gap:20px;
       align-items: flex-end;
       @include breakpoint(medium){
-          
-     gap:20px;
+     
+         gap:20px;
+     } 
+
+     @include breakpoint(large){
+        flex-direction: row;
+        gap:20px;
+
+   
+            max-width: 50%;
+        
+    } 
      
 
-      }
     
        justify-content: space-between;
     //    button {
