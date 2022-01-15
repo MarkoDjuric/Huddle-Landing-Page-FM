@@ -19,6 +19,6 @@ In order to reduce the use of media I used fluid design. For paragraphs and head
 
 font-size: calc( 24px + (48 - 24) * (100vw - 320px) / (1440 - 320) ); 
 
-24px is minimal size and 48 is maximum.
+24px is minimal font size and 48 is maximum.
 
 Starting breakpoint is 320px and maximum is 1440px. So font sizes adjusted in this way increase in proportion to the change in screen width of the device
